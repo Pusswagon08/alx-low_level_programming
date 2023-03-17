@@ -2,14 +2,16 @@
 
 /**
  * main - Entry point
- * Description: prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+ * 
+ *Description: 'the program's description'
+ *
  * Return: Always 0 on success
  */
 
 int main(void)
 {
 	char i;
-	
+
 	for (i = 'a'; i <= 'z'; i++)
 		putchar(i);
 	for (i = 'A'; i <= 'Z'; i++)
