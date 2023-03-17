@@ -4,9 +4,7 @@
 
 /**
  * main - Entry point
- *
  *Description: 'the program's description'
- *
  * Retuurn: return 0 on success
  */
 
