@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description:  prints all single digit numbers of base 10 starting from 0, followed by a new line.
+ * Description: 'the program's description'
  * Return: Always 0 on success
  */
 
@@ -12,5 +12,6 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 		printf("%d", i);
+	printf("\n");
 	return (0);
 }
