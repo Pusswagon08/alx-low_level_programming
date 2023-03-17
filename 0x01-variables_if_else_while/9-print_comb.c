@@ -3,7 +3,10 @@
 /**
  * main - main function
  *
- * REturn: always 0
+ * Description: 'the program's description'
+ *@parameter: describe the parameter
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
