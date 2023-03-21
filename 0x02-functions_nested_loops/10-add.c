@@ -3,7 +3,9 @@
 /**
  * add - adds two integer
  *
- * @a,@b: parameter a and b are considered
+ * @a: parameter a
+ *
+ * @b: parameter b
  *
  * Return: return the value of c
  */
