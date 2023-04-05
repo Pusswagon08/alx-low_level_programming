@@ -6,6 +6,7 @@
  * @n: parameter considered
  *
  * Return: 0 if less than 0
+ *
  */
 
 int factorial(int n)
@@ -15,7 +16,7 @@ int factorial(int n)
 	if (n < 0)
 	return (-1);
 	if (n <= 1)
-	return 1;
+	return (1);
 	else
 	k = n * factorial(n - 1);
 	return (k);
