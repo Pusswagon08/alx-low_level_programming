@@ -1,31 +1,28 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - main code block
- *
- * Description: program that multiplies two number
- *
- * @argc: arguement counter
- *
- * @argv: array that stores arguement
- *
- * Return: always 0 on (success)
+ * main - multiply 2 numbers and give result
+ * @argc: arguement count
+ * @argv: arguement array
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	int i = atoi(argv[1]);
-	int j = atoi(argv[2]);
-	int k = i * j;
+	int num1;
+	int num2;
+	int result;
 
 	if (argc != 3)
 	{
-		printf("ERROR\n");
+		printf("Error\n");
 		return (1);
 	}
-	else
-	printf("%d\n", k);
+
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+	result = num1 * num2;
+	printf("%d\n", result);
 	return (0);
 }
