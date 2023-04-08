@@ -21,7 +21,10 @@ int main(int argc, char *argv[])
 	int k = i * j;
 
 	if (argc != 3)
-	printf("ERROR\n");
+	{
+		printf("ERROR\n");
+		return (1);
+	}
 	else
 	printf("%d\n", k);
 	return (0);
